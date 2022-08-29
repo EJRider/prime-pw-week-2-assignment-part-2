@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We create a variable called name and set it to Dane 
+// We check if name is Mary, if the name is mary,  console "Hi, Mary!".
+// If name is not Mary, console "How do you do?"
 //
 
 //CODE
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Create a value labled secret
+// Create a value labled code set to 123
+// if code equals 123, secret is set to 'super' and code is multiplied by 2
+//If code is greater than 250, set secret to 'duper' then log secret
 
 //CODE
 /*
@@ -70,10 +70,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Create values isStudent, age, and zip. 
+// Set isStudent to true, age to 34, and zip to 55407
+// if isStudent is true and zip is greater than 80000, log "You're a student on the west coast!"
+// if isStudent is false or age is less than 30, log "What are you hobbies?"
+// if isStudent is true , log "Welcome to prime"
+// if nothing fits within these paramiters, log "How about the weather?"
 
 //CODE
 /*
@@ -129,11 +131,13 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+//FIX - the values of colorOne and colorTwo should be swapped, as colorOne should be blue and colorTwo should be red 
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+//FIX - this section is missing a piece of code, colorTwo= 'purple'; should also be added
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -147,6 +151,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//FIX - || should be changed to &&, as this problem requires both temp and time, not just one 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +165,8 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+//FIX - if(minAge) should be greater than or equal to age, in addition the enter log
+// should be the only outcome, the 'no entry' log can be removed from this code.
 if(minAge <= age) {
   console.log('no entry');
 } else {
