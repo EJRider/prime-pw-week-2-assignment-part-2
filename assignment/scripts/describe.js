@@ -27,8 +27,8 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // We create a variable called name and set it to Dane 
-// We check if name is Mary, if the name is mary,  console "Hi, Mary!".
-// If name is not Mary, console "How do you do?"
+// We check if name is Mary, if the name is mary, we console.log "Hi, Mary!".
+// If name is not Mary, we console.log "How do you do?"
 //
 
 //CODE
@@ -48,7 +48,7 @@ if (name === 'Mary') {
 // Create a value labled secret
 // Create a value labled code set to 123
 // if code equals 123, secret is set to 'super' and code is multiplied by 2
-//If code is greater than 250, set secret to 'duper' then log secret
+//If code is greater than 250, set secret to 'duper' then we console.log secret, which should say 'Duper'
 
 //CODE
 /*
@@ -72,10 +72,10 @@ console.log(secret)
 // 3. WRITE YOUR DESCRIPTION HERE
 // Create values isStudent, age, and zip. 
 // Set isStudent to true, age to 34, and zip to 55407
-// if isStudent is true and zip is greater than 80000, log "You're a student on the west coast!"
-// if isStudent is false or age is less than 30, log "What are you hobbies?"
-// if isStudent is true , log "Welcome to prime"
-// if nothing fits within these paramiters, log "How about the weather?"
+// if isStudent is true and zip is greater than 80000, we console.log "You're a student on the west coast!"
+// if isStudent is false or age is less than 30, we console.log "What are you hobbies?"
+// if isStudent is true , we console.log "Welcome to prime"
+// if nothing fits within these paramiters, we console.log "How about the weather?"
 
 //CODE
 /*
